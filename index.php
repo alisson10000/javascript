@@ -13,6 +13,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         </style>
     </head>
     <body >
+        <div class="menu">
+            <a href="index.php">aritméticos</a>
+            <a href="checkbox.php">checkbox e radio</a>
+        </div>
         <fieldset>
             <legend>Cálculos:</legend>
             <form class="formulario" name="frmSoma" id="frmSoma" action="">

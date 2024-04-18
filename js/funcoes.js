@@ -20,8 +20,6 @@ function somaCalculo() {
         numeroDois = document.getElementById('numeroDois').value;
         operacao = document.getElementById('operacao').value;
         operacao = parseInt(operacao);
-
-
         if (operacao === 1) {
             calcular = parseFloat(numeroUm) + parseFloat(numeroDois);
             document.getElementById('resultado').innerHTML = "resultado da soma é: " + calcular;
