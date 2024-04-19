@@ -7,21 +7,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
     <head>
         <meta charset="UTF-8">
         <title></title>
-        <script src="js/funcoesTres.js"></script>
+        <script src="js/funcoesQuatro.js"></script>
     </head>
     <body>
         <div class="menu">
             <a href="index.php">aritméticos</a>
             <a href="checkbox.php">checkbox e radio</a>
             <a href="imc.php">imc</a>
-              <a href="salario.php">salário</a>
+            <a href="salario.php">salário</a>
         </div>
-        <form action="#" name="frmImc" id="frmImc">
-            <label for="peso">informe o seu peso</label>
-            <input type="text" name="peso" id="peso">
-            <label for="altura">informe a sua altura</label>
-            <input type="text" name="altura" id="altura">
-            <button type="button" onclick="imc()" >calcular</button>
+        <form method="get" action="#" name="frmSalario" id="frmSalario">
+            <label for="idade">informe a sua idade</label>
+            <input type="text" name="idade" id="idade">
+            <label for="salario">informe a seu salário</label>
+            <input type="text" name="salario" id="salario">
+            <button type="button" onclick="calcularSalario()" >calcular</button>
         </form>
-    </body>
+  </body>
 </html>

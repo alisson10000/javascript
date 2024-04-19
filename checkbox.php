@@ -18,6 +18,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             <a href="index.php">aritméticos</a>
             <a href="checkbox.php">checkbox e radio</a>
             <a href="imc.php">imc</a>
+            <a href="salario.php">salário</a>
         </div>
         <fieldset>
             <legend><h1>Dados pessoais:</h1></legend>
